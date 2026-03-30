@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Cargas Activas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background: #0f172a;
+      color: white;
+      text-align: center;
+    }
+
+    .container {
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 30px;
+      color: #00ffcc;
+    }
+
+    .btn {
+      display: block;
+      margin-top: 30px;
+      padding: 18px;
+      background: #25D366;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>🎰 CARGAS ACTIVAS</h1>
+    <p>Atención 24/7 • Bonificaciones</p>
+
+    <a class="btn" href="https://wa.me/5493436215526?text=Hola%20quiero%20cargar">
+      👉 HABLAR POR WHATSAPP
+    </a>
+  </div>
+</body>
+</html>
