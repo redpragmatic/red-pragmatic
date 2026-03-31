@@ -9,8 +9,8 @@
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background: #f4f6f8;
-      color: #222;
+      background: linear-gradient(135deg, #1e3c72, #2a5298, #ff512f);
+      color: white;
       text-align: center;
     }
 
@@ -20,45 +20,56 @@
       padding: 40px 20px;
     }
 
+    .card {
+      background: rgba(0,0,0,0.4);
+      border-radius: 15px;
+      padding: 25px;
+      backdrop-filter: blur(10px);
+    }
+
     h1 {
-      font-size: 26px;
+      font-size: 28px;
       margin-bottom: 10px;
     }
 
     p {
-      color: #555;
       font-size: 15px;
-      margin-bottom: 25px;
+      margin-bottom: 20px;
+      color: #ddd;
     }
 
-    .box {
-      background: white;
-      border-radius: 12px;
-      padding: 20px;
-      margin-bottom: 25px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-    }
-
-    .item {
-      margin: 10px 0;
-      font-size: 14px;
+    .highlight {
+      background: #ffcc00;
+      color: black;
+      padding: 10px;
+      border-radius: 10px;
+      font-weight: bold;
+      margin-bottom: 20px;
     }
 
     .btn {
       display: block;
-      padding: 16px;
+      padding: 18px;
+      font-size: 18px;
       background: #25D366;
       color: white;
       text-decoration: none;
-      border-radius: 10px;
-      font-size: 17px;
+      border-radius: 12px;
       font-weight: bold;
+      margin-top: 20px;
+      animation: pulse 1.5s infinite;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.08); }
+      100% { transform: scale(1); }
     }
 
     .footer {
-      margin-top: 25px;
+      margin-top: 20px;
       font-size: 12px;
-      color: #888;
+      color: #ccc;
     }
   </style>
 </head>
@@ -66,24 +77,24 @@
 <body>
 
 <div class="container">
+  <div class="card">
 
-  <h1>Atención Online</h1>
-  <p>Contactate con nuestro equipo para recibir información y asistencia personalizada.</p>
+    <h1>✨ Atención inmediata</h1>
+    <p>Contactanos</p>
 
-  <div class="box">
-    <div class="item">✔️ Respuesta rápida</div>
-    <div class="item">✔️ Atención personalizada</div>
-    <div class="item">✔️ Disponible todos los días</div>
+    <div class="highlight">
+      🔥 Disponibles • Respuesta rápida
+    </div>
+
+    <a class="btn" href="https://wa.me/5493436215526?text=Hola%20quiero%20información">
+      💬 HABLAR POR WHATSAPP
+    </a>
+
+    <div class="footer">
+      Atención 24/7
+    </div>
+
   </div>
-
-  <a class="btn" href="https://wa.me/5493436215526?text=Hola%20quiero%20información" target="_blank">
-    💬 Contactar por WhatsApp
-  </a>
-
-  <div class="footer">
-    Servicio de atención digital
-  </div>
-
 </div>
 
 </body>
